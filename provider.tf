@@ -7,7 +7,7 @@ terraform {
  }
 
  backend "s3" {
-   bucket = "terraform-state"
+   bucket = "jc-tf-test-bucket1"
    key    = "state"
    region = "eu-west-2"
  }
